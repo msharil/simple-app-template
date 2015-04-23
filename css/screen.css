@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg {
+    background: url(images/logo_watermark.png) top center no-repeat;
+    width:250px;
+    height: 250px;
+}
+
