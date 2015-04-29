@@ -76,8 +76,8 @@
 
         <form class="form-signin" role="form" action="index.php?method=token" method="post">
         <center>Please Login to Continue</center>
-        <input type="text" class="form-control" name="nogaji" placeholder="Employee No" required autofocus>
-        <input type="password" class="form-control" name="nokp" placeholder="Password" required>
+        <input type="text" class="form-control" name="user" placeholder="Employee No" required autofocus>
+        <input type="password" class="form-control" name="passwd" placeholder="Password" required>
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
         </label>

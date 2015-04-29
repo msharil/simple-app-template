@@ -12,7 +12,7 @@ switch ($method)
     case "ShowLogin": 	include("login.php");	break;	
     case "SignOff": 	include("logout.php");	break;	
 	
-    case "xyz": 	include("verify.php");	break;
+    case "token": 	include("verify.php");	break;
     case "exit": 	include("logout.php");	break;
 
 	default:

@@ -1,6 +1,11 @@
 <?php 
-error_reporting (E_ALL ^ E_NOTICE); 
-include('config.php'); 
+session_start();
+$user = $_SESSION['pengguna'];
+
+if(!isset($_SESSION['pengguna'])){
+    header('Location: index.php');
+	die();
+} 
 ?>
 <!DOCTYPE html>
 <html lang="en">
