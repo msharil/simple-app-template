@@ -14,13 +14,14 @@ $titlePage = 'Dashboard';
       	
       <!-- column 2 -->	
 
-      <ul class="list-inline pull-right">
-         <li><i class="glyphicon glyphicon-user"></i> Welcome, <?php echo $user; ?> </li>
-      </ul>
+	  <div id="titlePage">
+		<ul class="list-inline pull-right">
+			<li><i class="glyphicon glyphicon-user"></i> Welcome, <?php echo $user; ?> </li>
+		</ul>
 
-      <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> <?php echo $titlePage; ?></strong></a>  
-      
+		<a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> <?php echo $titlePage; ?></strong></a>  
       	<hr>
+      </div>
       
 		<div class="row">
 
@@ -44,9 +45,6 @@ $titlePage = 'Dashboard';
                     
 	    </div><!--/row-->
       
-      <hr>
-      
-
   	</div><!--/col-span-9-->
 </div>
 </div>

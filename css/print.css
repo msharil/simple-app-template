@@ -1,15 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
 
-.bg {
-    background: url(images/logo_watermark.png) top center no-repeat;
-    width:250px;
-    height: 250px;
-}
+@media print {
 
-.bg.print {
-    display: list-item;
-    list-style-image: url(images/logo_watermark.png);
-    list-style-position: inside;
-}
+	header {
+		display: none;
+	}
+	
+	#titlePage {
+		display: none;
+	}
+	
+	.col-md-3 {
+		display: none;
+	}
 
+	.noprint {
+		display: none;
+	}
+	
+	footer {
+		display: none;
+	}
+}
