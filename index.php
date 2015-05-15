@@ -34,6 +34,15 @@ switch ($method)
                     case ""         : header('Location: index.php?method=ShowHome'); break;
                 }
                 break;               
+
+            case "ShowPayment" : $nomMenu = 3;
+                switch($opt)
+                {
+                    case "Sample"    : include("payment.php"); break;
+                    case ""         : header('Location: index.php?method=ShowHome'); break;
+                }
+                break;               
+
 		}
 		
         break;

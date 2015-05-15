@@ -28,10 +28,10 @@
         </li>
         
         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#admin">
-          <h5>Menu Three <i class="glyphicon glyphicon-chevron-right"></i></h5>
+          <h5>Payment <i class="glyphicon glyphicon-chevron-right"></i></h5>
           </a>
             <ul class="list-unstyled collapse" id="admin">
-                <li><a href="index.php?method=ShowProject&opt=View"><i class="glyphicon glyphicon-calendar"></i> Sub Menu Three</a></li>
+                <li><a href="index.php?method=ShowPayment&opt=Sample"><i class="glyphicon glyphicon-calendar"></i> Status</a></li>
                 <li><a href="index.php?method=ShowStaff&opt=Search"><i class="glyphicon glyphicon-calendar"></i> Sub Menu Three</a></li>                
             </ul>
         </li>
