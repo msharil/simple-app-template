@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-        <title>Login: E-Payslip</title>
+        <title>Login: System</title>
         <meta name="generator" content="Bootply" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@
 <!-- Main -->
 <div class="container">
 
-	<div align="center"><img src="images/esp_login.png"></div>
+	<div align="center"><img src="images/circle.png"></div>
     <div class="row">
 
         <form class="form-signin" role="form" action="index.php?method=token" method="post">

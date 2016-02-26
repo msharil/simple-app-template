@@ -3,7 +3,7 @@ session_start();
 $user = $_SESSION['pengguna'];
 
 if(!isset($_SESSION['pengguna'])){
-    header('Location: index.php');
+    header('Location: index.php?method=ShowLogin');
 	die();
 } 
 ?>
@@ -43,6 +43,7 @@ i {
   
 footer {
   margin-top:20px;
+  margin-bottom: 0px;
   padding-top:20px;
   padding-bottom:20px;
   background-color:#efefef;
@@ -85,7 +86,7 @@ footer {
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-toggle"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/eps_logo2.png" width="150px"></a>
+      <a class="navbar-brand" href="index.php?method=ShowHome"><img src="images/eps_logo2.png" width="150px"></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">

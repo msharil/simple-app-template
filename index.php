@@ -1,12 +1,14 @@
 <?php
 
+error_reporting(0);
+
 $method=$_REQUEST['method'];
 $opt=$_REQUEST['opt'];
 
 
 switch ($method)
 {
-    case "": 	header("Location: index.php?method=ShowLogin"); 	break;
+    case "": 	header("Location: index.php?method=ShowHome"); 	break;
 
     case "ShowHome": 	include("main.php");	break;	
     case "ShowLogin": 	include("login.php");	break;	
