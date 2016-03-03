@@ -16,6 +16,7 @@ if(!isset($_SESSION['pengguna'])){
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
